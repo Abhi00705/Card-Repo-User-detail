@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Edit</title>
+</head>
+<body>
+    <div class="w-full h-full bg-zinc-900 flex justify-center items-center">
+        <form action="/edited" method="post" class="bg-editedwhite w-50 h-50 flex justify-center items-center flex-col gap-5">
+            <div class="bg-gray-500 w-40 p-4" name="image">
+                <input type="text" placeholder="image url" name="image" value="<%= userDetail.image%>">
+            </div>
+            <input class="bg-gray-500 w-40 p-4" placeholder="Name" name="name" value="<%= userDetail.name %>">
+            <input class="bg-gray-500 w-40 p-4" placeholder="email Id" name="email" value="<%= userDetail.email %>">
+            <button type="submit" class="bg-blue-600 text-white p-[5px] w-40">submit</button>
+        </form>
+    </div>
+</body>
+</html>

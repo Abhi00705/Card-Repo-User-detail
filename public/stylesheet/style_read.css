@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.cont1{
+    width:100vw;
+    height:100vh;
+    background-color: gray;
+    padding: 5px;
+}
+.cont2{
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+
+}
+.cont3{
+    width: 10rem;
+    height: 12rem;
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+.cont_img{
+    width: 80%;
+    height: 60%;
+    background-color: rgb(35, 30, 30);
+}
+.cont_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
